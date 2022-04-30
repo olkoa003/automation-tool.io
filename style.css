@@ -603,4 +603,47 @@ body {
     line-height: 19px;
   }
 }
+
+.header_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 111px;
+  margin-top: 18px;
+}
+
+.imgheader {
+  padding-top: 9px;
+}
+
+.header_f {
+  background-image: url(img/maskgroup29.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 250px;
+}
+
+.formtext_1 {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 74px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+}
+
+.formtext_2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.6);
+}
 /*# sourceMappingURL=style.css.map */
