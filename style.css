@@ -613,6 +613,7 @@ body {
           justify-content: space-between;
   height: 111px;
   margin-top: 18px;
+  padding-top: 41px;
 }
 
 .imgheader {
@@ -627,6 +628,8 @@ body {
 }
 
 .formtext_1 {
+  min-width: 233px;
+  min-height: 74px;
   font-family: 'Roboto';
   font-weight: 500;
   font-size: 44px;
@@ -634,9 +637,13 @@ body {
   text-align: center;
   letter-spacing: 0.04em;
   color: #FFFFFF;
+  padding-top: 45px;
+  padding-bottom: 16px;
 }
 
 .formtext_2 {
+  width: 780px;
+  height: 60px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
