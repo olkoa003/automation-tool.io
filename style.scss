@@ -557,7 +557,6 @@ body {
     justify-content: space-between;
     height: 111px;
     margin-top: 18px;
-    padding-top: 41px;
 }
 
 .imgheader{
@@ -565,6 +564,8 @@ body {
 }
 
 .header_f{
+    display: flex;
+    flex-direction: column;
     background-image: url(img/maskgroup29.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -586,8 +587,6 @@ body {
 }
 
 .formtext_2{
-   width: 780px;
-    height: 60px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -596,4 +595,51 @@ body {
     text-align: center;
     letter-spacing: 0.04em;
     color: rgba(255, 255, 255, 0.6);
+}
+
+
+.resty_2{
+    padding-top: 51px;
+    min-width: 233px;
+    padding-bottom: 16px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 74px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.infor_text{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
+    padding-bottom: 49px;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.info_ls{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    list-style-type: none;
+}
+
+.contacts_content{
+    margin-top: 57px;
+    margin-bottom: 96px;
+}
+
+.spb_map{
+    display:flex;
+    justify-content:center;
+
 }
