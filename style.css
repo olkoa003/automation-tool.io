@@ -406,14 +406,6 @@
           align-items: center;
 }
 
-.map {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
 body {
   font-family: sans-serif;
 }
@@ -691,6 +683,7 @@ body {
   letter-spacing: 0.04em;
   color: #1F3F68;
   list-style-type: none;
+  padding-bottom: 24px;
 }
 
 .contacts_content {
@@ -705,5 +698,120 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.the_main_form_2 {
+  background: #FFFFFF;
+  -webkit-box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+          box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+}
+
+.sendmessage {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  padding-top: 56px;
+  padding-left: 56px;
+  padding-bottom: 48px;
+}
+
+.sendmtext {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  opacity: 0.8;
+  padding-bottom: 8px;
+  padding-left: 56px;
+  padding-right: 36px;
+}
+
+.sendmessage_pop {
+  width: 428px;
+  height: 72px;
+  opacity: 0.4;
+  border: 1px solid #356EAD;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+  padding-left: 42px;
+  padding-right: 42px;
+  margin-left: 56px;
+  margin-bottom: 32px;
+}
+
+.sendmessbutton {
+  width: 428px;
+  height: 72px;
+  background: #5A98D0;
+  -webkit-box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+          box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  margin-left: 56px;
+  margin-top: 70px;
+  margin-bottom: 56px;
+  width: 428px;
+  border: none;
+}
+
+.contact_info_block {
+  width: 540px;
+  height: 800px;
+}
+
+.sendmessage_pop_text {
+  min-width: 428px;
+  height: 144px;
+  opacity: 0.4;
+  border: 1px solid #356EAD;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+  margin-left: 56px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  opacity: 0.2;
+  padding-top: 21px;
+  padding-left: 36px;
+  font-family: 'Roboto';
+}
+
+.infor_first_block {
+  width: 301px;
+  height: 668px;
+}
+
+.cotact_form_image {
+  padding-bottom: 56px;
+}
+
+.info_ls_text {
+  width: 299px;
+  min-height: 53px;
+  padding-bottom: 40px;
+}
+
+.info_ls_space {
+  padding-bottom: 16px;
+}
+
+.info_ls_space_2 {
+  padding-bottom: 40px;
 }
 /*# sourceMappingURL=style.css.map */
