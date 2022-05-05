@@ -867,12 +867,27 @@ body {
   .main_footer {
     margin-top: 60px;
   }
+  .contact_info_block {
+    min-width: 520px;
+    min-height: 780px;
+  }
 }
 
 @media (max-width: 667px) {
-  .header {
-    padding-top: 24px;
-    padding-bottom: 46px;
+  .main_footer {
+    margin-top: 32px;
+  }
+  .spb_map {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .contacts_content {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 32px;
+  }
+  .infor_first_block {
+    margin-bottom: 95px;
   }
 }
 /*# sourceMappingURL=style.css.map */
