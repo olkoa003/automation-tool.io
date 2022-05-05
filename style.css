@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body {
+  font-family: sans-serif, 'Roboto';
+}
+
 .top__content {
   min-height: 768px;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(8.84%, #EBF3FB), color-stop(31.12%, rgba(152, 195, 232, 0)));
@@ -406,10 +410,6 @@
           align-items: center;
 }
 
-body {
-  font-family: sans-serif, 'Roboto';
-}
-
 .star {
   font-weight: 500;
   font-size: 44px;
@@ -678,7 +678,6 @@ body {
   padding-bottom: 49px;
   padding-left: 100px;
   padding-right: 100px;
-  min-height: 60px;
 }
 
 .info_ls {
