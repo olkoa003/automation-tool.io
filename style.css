@@ -16,6 +16,7 @@ body {
 .container {
   max-width: 1140px;
   margin: 0 auto;
+  min-height: 190px;
 }
 
 .header {
@@ -626,7 +627,7 @@ body {
   background-image: url(img/maskgroup29.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 250px;
+  min-height: 189px;
 }
 
 .formtext_1 {
@@ -691,6 +692,10 @@ body {
   text-decoration: none;
 }
 
+.info_ls_title {
+  font-weight: bold;
+}
+
 .contacts_content {
   margin-top: 57px;
   margin-bottom: 96px;
@@ -706,6 +711,13 @@ body {
 }
 
 .the_main_form_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background: #FFFFFF;
   -webkit-box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
           box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
@@ -748,6 +760,7 @@ body {
   padding-left: 42px;
   padding-right: 42px;
   margin-left: 56px;
+  margin-right: 56px;
   margin-bottom: 32px;
 }
 
@@ -766,6 +779,7 @@ body {
   letter-spacing: 0.04em;
   color: #FFFFFF;
   margin-left: 56px;
+  margin-right: 56px;
   margin-top: 70px;
   margin-bottom: 56px;
   width: 428px;
@@ -773,12 +787,12 @@ body {
 }
 
 .contact_info_block {
-  width: 540px;
-  height: 800px;
+  min-width: 540px;
+  min-height: 800px;
 }
 
 .sendmessage_pop_text {
-  min-width: 428px;
+  width: 428px;
   height: 144px;
   opacity: 0.4;
   border: 1px solid #356EAD;
@@ -797,13 +811,29 @@ body {
   font-family: 'Roboto';
 }
 
-.infor_first_block {
-  width: 301px;
-  height: 668px;
+.infor_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .cotact_form_image {
-  padding-bottom: 56px;
+  padding-top: 35px;
+  padding-bottom: 45px;
+}
+
+.main_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .info_ls_text {
