@@ -6,12 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Roboto:wght@500&display=swap" rel="stylesheet">
     <link crossorigin='anonymous' href='https://use.fontawesome.com/releases/v5.8.2/css/all.css'
         integrity='sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay' rel='stylesheet' />
     <title>Contact Us</title>
 </head>
 
 <body>
+
+    <!-- header start -->
     <section>
         <div class="container">
             <div class="header_2">
@@ -21,11 +26,17 @@
         </div>
         <div class="header_f">
             <h1 class="resty_2">Contact Us</h1>
-            <p class="infor_text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <div>
+                <p class="infor_text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            </div>
         </div>
     </section>
+    <!-- header end -->
 
+
+    <!-- main block start -->
+    <!-- form start -->
     <section class="contacts_content container">
         <div>
             <ul class="infor_list">
@@ -45,27 +56,32 @@
                         href="mailto: hello.site@gmail.com">hello.site@gmail.com</a></li>
             </ul>
         </div>
-
+        <!-- form start -->
         <div class="contact_info_block">
             <form action="#" class="the_main_form_2">
                 <h4 class="sendmessage">SEND US MESSAGE</h4>
-                <p class="sendmtext">Full Name </p>
-                <input type="text" placeholder="Your Name" class="sendmessage_pop">
+                <p class="sendmtext">Full Name</p>
+                <input type="text" placeholder="Your Name" class="sendmessage_pop" required>
                 <p class="sendmtext">Email </p>
-                <input type="email" placeholder="Your Email" class="sendmessage_pop">
+                <input type="email" placeholder="Your Email" class="sendmessage_pop" required>
                 <p class="sendmtext">Message</p>
-                <textarea class="sendmessage_pop_text sendmtext" placeholder="Your Message" cols="30"
-                    rows="10"></textarea>
+                <textarea class="sendmessage_pop_text sendmtext" placeholder="Your Message" cols="30" rows="10"
+                    required></textarea>
                 <button class="sendmessbutton" type="submit">SUBMIT</button>
             </form>
         </div>
     </section>
+    <!-- form end -->
+    <!-- main block end -->
 
+    <!-- map container start -->
     <section class="spb_map container">
         <script type="text/javascript" charset="utf-8" async
             src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Affd4278453f6126a88156f6929829bbea8e6b21f08ebcb66a921d2825953ab66&amp;width=940&amp;height=480&amp;lang=ru_RU&amp;scroll=true"></script>
     </section>>
+    <!-- map container end -->
 
+    <!-- footer block start -->
     <section class="main_footer">
         <div class="container">
             <div class="footer-top">
@@ -91,6 +107,7 @@
             </div>
         </div>
     </section>
+    <!-- footer block end -->
 </body>
 
 </html>
